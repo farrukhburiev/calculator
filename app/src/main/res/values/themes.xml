@@ -22,4 +22,10 @@
         <item name="strokeColor">@color/white</item>
 
     </style>
+
+    <style name="myedittext">
+        <item name="android:background">#17FFFFFF</item>
+        <item name="android:layout_marginTop">10dp</item>
+
+    </style>
 </resources>
