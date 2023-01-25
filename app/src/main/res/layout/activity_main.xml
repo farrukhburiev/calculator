@@ -68,7 +68,7 @@
                 android:layout_weight="1"
                 android:text="C"
                 android:id="@+id/delete_all"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 android:backgroundTint="#4E505F"
                 android:layout_margin="5dp"
                 app:cornerRadius="24dp"/>
@@ -80,7 +80,7 @@
                 android:layout_margin="5dp"
                 android:id="@+id/plus_minus"
                 app:icon="@drawable/plusminus"
-                app:iconSize="50dp"
+                app:iconSize="40dp"
                 android:text=""
                 app:iconGravity="textStart"
                 app:iconPadding="0dp"
@@ -96,7 +96,7 @@
                 android:backgroundTint="#4E505F"
                 android:text="%"
                 android:id="@+id/percentage"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="wrap_content"
@@ -106,7 +106,7 @@
                 android:backgroundTint="#4B5EFC"
                 android:text="÷"
                 android:id="@+id/divide"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
 
         </LinearLayout>
@@ -123,7 +123,7 @@
                 android:layout_margin="5dp"
                 android:text="7"
                 android:id="@+id/seven"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
                 android:layout_margin="5dp"
                 android:text="8"
                 android:id="@+id/eight"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 android:backgroundTint="#2E2F38"
                 app:cornerRadius="24dp"/>
             <com.google.android.material.button.MaterialButton
@@ -143,7 +143,7 @@
                 android:backgroundTint="#2E2F38"
                 android:text="9"
                 android:id="@+id/nine"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="wrap_content"
@@ -153,7 +153,7 @@
                 android:layout_margin="5dp"
                 android:text="×"
                 android:id="@+id/multiply"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
 
         </LinearLayout>
@@ -170,7 +170,7 @@
                 android:backgroundTint="#2E2F38"
                 android:text="4"
                 android:id="@+id/four"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="wrap_content"
@@ -178,7 +178,7 @@
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:backgroundTint="#2E2F38"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 android:text="5"
                 android:id="@+id/five"
                 app:cornerRadius="24dp"/>
@@ -187,7 +187,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="5dp"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 android:text="6"
                 android:id="@+id/six"
                 android:backgroundTint="#2E2F38"
@@ -200,7 +200,7 @@
                 android:backgroundTint="#4B5EFC"
                 android:text="–"
                 android:id="@+id/seperation"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
 
         </LinearLayout>
@@ -215,7 +215,7 @@
                 android:layout_weight="1"
                 android:text="1"
                 android:id="@+id/one"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 android:layout_margin="5dp"
                 android:backgroundTint="#2E2F38"
                 app:cornerRadius="24dp"/>
@@ -226,7 +226,7 @@
                 android:layout_margin="5dp"
                 android:text="2"
                 android:id="@+id/two"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 android:backgroundTint="#2E2F38"
                 app:cornerRadius="24dp"/>
             <com.google.android.material.button.MaterialButton
@@ -247,7 +247,7 @@
                 android:backgroundTint="#4B5EFC"
                 android:text="+"
                 android:id="@+id/add"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
 
         </LinearLayout>
@@ -263,7 +263,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/point"
-                android:textSize="50sp"
+                android:textSize="40sp"
                 android:layout_margin="5dp"
                 android:id="@+id/point"
                 android:backgroundTint="#2E2F38"
@@ -276,7 +276,7 @@
                 android:backgroundTint="#2E2F38"
                 android:text="0"
                 android:id="@+id/zero"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="wrap_content"
@@ -300,7 +300,7 @@
                 android:backgroundTint="#4B5EFC"
                 android:text="="
                 android:id="@+id/equal"
-                android:textSize="50dp"
+                android:textSize="40dp"
                 app:cornerRadius="24dp"/>
 
         </LinearLayout>

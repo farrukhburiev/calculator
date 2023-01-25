@@ -40,15 +40,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        question.setVisibility(TextView.VISIBLE)
-        when(v?.getId()){
-            R.id.one -> Toast.makeText(this,"one",Toast.LENGTH_SHORT).show()
-            R.id.two -> Toast.makeText(this,"two",Toast.LENGTH_SHORT).show()
-            R.id.three -> Toast.makeText(this,"three",Toast.LENGTH_SHORT).show()
-            R.id.four -> Toast.makeText(this,"four",Toast.LENGTH_SHORT).show()
-            R.id.five -> Toast.makeText(this,"five",Toast.LENGTH_SHORT).show()
+            val btn = findViewById<Button>(v!!.id)
+
+
         }
     }
 
 
-}
