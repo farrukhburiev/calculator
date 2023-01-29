@@ -16,16 +16,12 @@
 
     <style name="mybutton">
         <item name="cornerRadius">50sp</item>
-        <item name="backgroundTint">#0DFFFFFF</item>
+        <item name="backgroundTint">#FF5722</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="strokeWidth">3dp</item>
-        <item name="strokeColor">@color/white</item>
+        <item name="strokeColor">@color/black</item>
 
     </style>
 
-    <style name="myedittext">
-        <item name="android:background">#17FFFFFF</item>
-        <item name="android:layout_marginTop">10dp</item>
 
-    </style>
 </resources>

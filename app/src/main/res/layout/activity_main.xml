@@ -16,9 +16,10 @@
         android:layout_marginBottom="4dp"
         android:gravity="right"
         android:text="0"
-
+        android:maxLines="2"
         android:textColor="#817878"
-        android:textSize="50dp"
+        android:autoSizeTextType="uniform"
+        android:textSize="45sp"
 
         app:layout_constraintBottom_toTopOf="@+id/solution"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,13 +30,13 @@
         android:id="@+id/solution"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_row="1"
-        android:layout_column="0"
         android:layout_marginTop="20dp"
         android:gravity="right"
         android:text=""
+        android:autoSizeMaxTextSize="35dp"
+        android:autoSizeMinTextSize="20dp"
         android:textColor="@color/white"
-        android:textSize="80dp"
+        android:textSize="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question" />
 
@@ -69,6 +70,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#4E505F"
                 android:text="C"
+
                 android:textSize="40dp"
                 app:cornerRadius="24dp" />
 
