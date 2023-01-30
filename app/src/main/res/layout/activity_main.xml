@@ -83,10 +83,10 @@
                 android:layout_weight="1"
                 android:backgroundTint="#4E505F"
                 android:gravity="center"
-                android:text=""
+                android:text="00"
                 android:textSize="30dp"
                 app:cornerRadius="24dp"
-                app:icon="@drawable/plusminus"
+
                 app:iconGravity="textStart"
                 app:iconPadding="0dp"
                 app:iconSize="40dp" />

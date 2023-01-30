@@ -4,9 +4,12 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.util.TypedValue
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import kotlin.reflect.typeOf
+
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var zero: Button
     private lateinit var one: Button
@@ -27,7 +30,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var clear: Button
     private lateinit var equal: Button
     private lateinit var backpace: Button
-    private lateinit var plus_minus :Button
+    private lateinit var two_zero :Button
 
 
     private lateinit var question: TextView
@@ -62,11 +65,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         multiply.setOnClickListener(this)
         backpace.setOnClickListener(this)
         equal.setOnClickListener(this)
-        plus_minus.setOnClickListener(this)
+        two_zero.setOnClickListener(this)
 
-       plus_minus.setOnClickListener {
-         question.text ="("+ plus_minus().toString()+")"
-       }
+
 
         point.setOnClickListener {
             if (isPoint) {
@@ -90,7 +91,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             question.text = "0"
             solution.text = "0"
             isPoint = true
-            ozgaruvchi = 0f
+            question.setTextSize(TypedValue.COMPLEX_UNIT_SP,50f)
+            solution.setTextSize(TypedValue.COMPLEX_UNIT_SP,50f)
+
+            isPoint = true
+
         }
 
         equal.setOnClickListener {
@@ -211,13 +216,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun is_symbol(char: String) {
 
-        if (question.text.endsWith("*") || question.text.endsWith("/") || question.text.endsWith("+") || question.text.endsWith(
-                "-"
-            )
+        if (question.text.endsWith("*") || question.text.endsWith("/") || question.text.endsWith("+") || question.text.endsWith("-")
         ) {
             question.text = question.text.dropLast(1).toString() + char
             isPoint = true
-        } else question.text = question.text.toString() + char
+        } else {
+            question.text = question.text.toString() + char
+            isPoint = true
+        }
     }
 
     private fun id_reg() {
@@ -239,7 +245,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         equal = findViewById(R.id.equal)
         point = findViewById(R.id.point)
         backpace = findViewById(R.id.backpace)
-        plus_minus = findViewById(R.id.plus_minus)
+        two_zero = findViewById(R.id.plus_minus)
         question = findViewById(R.id.question)
         solution = findViewById(R.id.solution)
 
